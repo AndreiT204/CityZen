@@ -1,0 +1,170 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 1, 6, 225);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: 0;
+}
+
+#navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 50px;
+    background-color: transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+}
+
+#logo {
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#navItems {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navItems a.active {
+    text-decoration: underline;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* CITIES IMAGES */
+
+.city1_1 {
+    background: url(./assets/Tokyo1.jpg);
+    background-size: cover;
+}
+
+.city1_2 {
+    background: url(./assets/Tokyo2.jpg);
+    background-size: cover;
+}
+
+.city1_3 {
+    background: url(./assets/Tokyo3.jpg);
+    background-size: cover;
+}
+
+.city2_1 {
+    background: url(./assets/Kyoto1.jpg);
+    background-size: cover;
+}
+
+.city2_2 {
+    background: url(./assets/Kyoto2.jpg);
+    background-size: cover;
+}
+
+.city2_3 {
+    background: url(./assets/Kyoto3.jpg);
+    background-size: cover;
+}
+
+.city3_1 {
+    background: url(./assets/Osaka1.jpg);
+    background-size: cover;
+}
+
+.city3_2 {
+    background: url(./assets/Osaka2.jpg);
+    background-size: cover;
+}
+
+.city3_3 {
+    background: url(./assets/Osaka3.jpg);
+    background-size: cover;
+}
+
+.city3_4 {
+    background: url(./assets/Osaka4.jpg);
+    background-size: cover;
+}
+
+.city4_1 {
+    background: url(./assets/Nara1.jpg);
+    background-size: cover;
+}
+
+.city4_2 {
+    background: url(./assets/Nara2.jpg);
+    background-size: cover;
+}
+
+.city4_3 {
+    background: url(./assets/Nara3.jpg);
+    background-size: cover;
+}
+
+.city5_1 {
+    background: url(./assets/Hiroshima1.jpg);
+    background-size: cover;
+}
+
+.city5_2 {
+    background: url(./assets/Hiroshima2.jpg);
+    background-size: cover;
+}
+
+.city5_3 {
+    background: url(./assets/Hiroshima3.jpg);
+    background-size: cover;
+}
+
+.city6_1 {
+    background: url(./assets/Yokohama1.jpg);
+    background-size: cover;
+}
+
+.city6_2 {
+    background: url(./assets/Yokohama2.jpg);
+    background-size: cover;
+}
+
+.city6_3 {
+    background: url(./assets/Yokohama3.jpg);
+    background-size: cover;
+}

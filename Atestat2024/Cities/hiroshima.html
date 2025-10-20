@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../page.css" />
+  <link rel="stylesheet" href="individualCity.css" />
+  <script src="../page.js" defer></script>
+
+  <title>CityZen</title>
+</head>
+
+<body>
+  <div class="overlay"></div>
+
+  <nav id="navbarContainer">
+    <div id="logo">CityZen</div>
+    <div id="navItems">
+      <a href="../Home/main.html">Home</a>
+      <a href="cities.html" class="active">Cities</a>
+      <a href="../Gallery/gallery.html">Gallery</a>
+      <a href="../Travel/travel.html">Travel</a>
+    </div>
+  </nav>
+
+  <div class="sectionContainer">
+    <div class="citiesContainer">
+      <div class="text">
+        <h3 class="subtitle">Hiroshima Highlights</h3>
+        <div>
+          <strong>Short Description</strong>
+          <p class="info">Hiroshima, forever etched in history, stands as a testament to resilience and hope.
+            The Peace Memorial Park, dedicated to the memory of the atomic bombing, reflects the city's commitment
+            to peace and reconciliation. Amidst its modern skyline, Hiroshima's profound history and inspiring
+            resilience
+            continue to inspire visitors from around the world!</p>
+        </div>
+        <div>
+          <strong>Top Attractions</strong>
+          <div class="grid-container">
+          </div>
+        </div>
+        <div>
+          <strong>Restaurants</strong>
+          <div class="restaurants-grid">
+          </div>
+        </div>
+        <div>
+          <strong>Shopping Places</strong>
+          <div class="shopping-grid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../data/dataForCities.js"></script>
+    <script>
+      const gridContainer = document.querySelector('.grid-container');
+
+      const city = 'Hiroshima';
+
+      const attractions = dataForCities[city].attractions;
+
+      // Generate HTML for each attraction and append it to the grid container
+      attractions.forEach(attraction => {
+        const html = `
+    <div class="card" data-value="${city}">
+      <div class="card-content">
+        <img class="img-container" src="${attraction.link}" alt="${attraction.name}">
+        <div class="city-label">${attraction.name}</div>
+      </div>
+    </div>
+  `;
+        gridContainer.insertAdjacentHTML('beforeend', html);
+      });
+
+
+      // RESTAURANTS
+      const restaurantsGrid = document.querySelector('.restaurants-grid');
+
+      const restaurants = dataForCities[city].restaurants;
+
+      restaurants.forEach(restaurant => {
+        const restaurantCard = `
+    <div class="restaurant-card">
+      <div class="restaurant-info">
+        <a href="${restaurant.link}" class="restaurant-link" target="_blank">
+          <h3>${restaurant.name}</h3>
+        </a>
+        <div class="rating">
+          <span>${restaurant.rating} <i class="rating-star">★</i></span>
+        </div>
+      </div>
+    </div>
+  `;
+        restaurantsGrid.insertAdjacentHTML('beforeend', restaurantCard);
+      });
+
+
+      // SHOPPING PLACES
+      const shoppingGrid = document.querySelector('.shopping-grid');
+
+      const shopping = dataForCities[city].shoppingPlaces;
+
+      shopping.forEach(shoppingPlace => {
+        const shoppingCard = `
+    <div class="restaurant-card">
+      <div class="restaurant-info">
+        <a href="${shoppingPlace.link}" class="restaurant-link" target="_blank">
+          <h3>${shoppingPlace.name}</h3>
+        </a>
+      </div>
+    </div>
+  `;
+        shoppingGrid.insertAdjacentHTML('beforeend', shoppingCard);
+      });
+    </script>
+</body>
+
+</html>

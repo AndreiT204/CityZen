@@ -1,0 +1,239 @@
+.sectionContainer {
+  height: 100vh;
+  margin-bottom: 10vh;
+}
+
+.citiesContainer {
+  margin: 0 auto;
+  margin-bottom: 6.25rem;
+  margin-top: 6.25rem;
+  min-height: 70vh;
+  height: auto;
+  width: 80vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: 3.4rem;
+  justify-content: flex-start;
+  z-index: 1;
+  position: relative;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+}
+
+.preferences-form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  height: auto;
+}
+
+.card {
+  position: relative;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.card-content {
+  position: relative;
+  height: 100%;
+}
+
+.img-container {
+  width: 100%;
+  height: 100%;
+}
+
+.city-label {
+  position: absolute;
+  bottom: 0.8rem;
+  left: 0.8rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 20%;
+  width: auto;
+  align-items: center;
+  padding-left: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.duration_label {
+  margin-right: 10%;
+  min-width: 50%;
+  font-size: 1.3rem;
+}
+
+/* Hide spinner arrows for number inputs */
+.number-input::-webkit-inner-spin-button,
+.number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number-input {
+  -moz-appearance: textfield;
+  width: 15%;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  width: auto;
+  padding-left: 1.8rem;
+  font-size: 1.3rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding-left: 1.8rem;
+}
+
+.buttonCustom {
+  background-color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.itinerary {
+  margin-left: 1.8rem;
+  margin-top: 10vh;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: rgba(34, 40, 49, 0.86);
+}
+
+.big {
+  font-size: 1.7rem;
+  margin-bottom: 7vh;
+}
+
+.itinerary p {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.itinerary strong {
+  font-size: 1.3rem;
+}
+
+.itinerary a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.1rem;
+}
+
+.itinerary a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .buttonsContainer {
+    width: 40%;
+  }
+
+  .inputContainer {
+    max-width: 30%;
+  }
+
+  .checkboxContainer {
+    max-width: 40%;
+  }
+
+  .grid-container {
+    gap: 0.7rem;
+  }
+
+  .itinerary strong {
+    font-size: 1.1rem;
+  }
+
+  .itinerary p {
+    font-size: 0.9rem;
+  }
+
+  .big {
+    font-size: 1.4rem;
+  }
+
+  .itinerary a {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .buttonsContainer {
+    width: 50%;
+  }
+
+  .card {
+    padding: 0.2rem;
+  }
+
+  .inputContainer {
+    max-width: 40%;
+  }
+
+  .checkboxContainer {
+    max-width: 50%;
+  }
+
+  .checkboxContainer label {
+    font-size: 1rem;
+  }
+
+  .duration_label {
+    font-size: 1rem;
+  }
+
+  .city-label {
+    font-size: 0.8rem;
+  }
+
+  .itinerary strong {
+    font-size: 1rem;
+  }
+
+  .itinerary p {
+    font-size: 0.9rem;
+  }
+
+  .big {
+    font-size: 1rem;
+  }
+
+  .itinerary a {
+    font-size: 0.9rem;
+  }
+}

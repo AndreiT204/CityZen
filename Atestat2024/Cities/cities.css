@@ -1,0 +1,131 @@
+.sectionContainer_cities {
+  height: auto;
+  margin: 7.5rem auto 6.25rem auto;
+}
+
+.citiesContainer_cities {
+  margin: 0 auto;
+  margin-bottom: 6.25rem;
+  margin-top: 6.25rem;
+  min-height: 70vh;
+  height: auto;
+  width: 85%;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  padding: 3.4rem;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  align-items: center;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 1.25rem;
+  width: 95%;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+  width: 20vw;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: rgba(34, 40, 49, 0.86);
+  padding: 1rem 0px;
+}
+
+.city_image {
+  width: 70%;
+  height: 35%;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
+
+.details {
+  width: 85%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.arrow-icon-small {
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: invert(100%);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.explore {
+  display: flex;
+  width: auto;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.explore_text {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 0.7rem;
+}
+
+.explore_text:hover {
+  text-decoration: underline;
+}
+
+/* For screens between 769px and 1024px */
+@media (max-width: 1440px) {
+  .galleryGrid {
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .city {
+    width: 26vw;
+  }
+}
+
+/* For screens between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .details {
+    font-size: 0.8rem;
+  }
+
+  .explore_text {
+    font-size: 1.2rem;
+  }
+
+  .arrow-icon-small {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .city_image {
+    width: 80%;
+  }
+
+  .details {
+    font-size: 0.6rem;
+  }
+
+  .explore_text {
+    font-size: 1rem;
+  }
+
+  .arrow-icon-small {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
