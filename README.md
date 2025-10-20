@@ -9,11 +9,9 @@ It allows visitors to explore Japan’s iconic cities, browse a gallery of capti
 - [About the Project](#about-the-project)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [How to View](#how-to-view)
 - [Screenshots](#screenshots)
 - [Skills Demonstrated](#skills-demonstrated)
-- [License](#license)
 
 ---
 
@@ -70,5 +68,3 @@ Visit the live demo here:
 1. Clone this repository:
    ```bash
    git clone https://github.com/AndreiT204/CityZen.git
-
-This project is licensed under the MIT License
