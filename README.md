@@ -60,18 +60,6 @@ Generates a personalized travel outline for your visit.
 
 ---
 
-## 📁 Project Structure
-CityZen/
-├── index.html # Home page
-├── cities.html # Cities overview page
-├── gallery.html # Gallery page
-├── travel.html # Itinerary creation page
-├── page.css # Stylesheet
-├── page.js # JavaScript file
-└── /assets # Images and gallery photos
-
----
-
 ## 🚀 How to View
 
 ### 🔹 Option 1: View Live
