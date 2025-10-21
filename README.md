@@ -6,11 +6,11 @@ It allows visitors to explore Japan’s iconic cities, browse a gallery of capti
 ---
 
 ## 🏮 Table of Contents
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [How to View](#how-to-view)
-  
+- [About the Project](#-about-the-project)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [How to View](#-how-to-view)
+
 ---
 
 ## 🗾 About the Project
@@ -50,7 +50,7 @@ Generates a personalized travel outline for your visit.
 ## 🛠️ Technologies Used
 - **HTML5**
 - **CSS3**
-- **JavaScript
+- **JavaScript**
 - Developed using **Visual Studio Code**
 
 ---
