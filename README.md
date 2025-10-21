@@ -8,7 +8,7 @@ It allows visitors to explore Japan’s iconic cities, browse a gallery of capti
 ## 🏮 Table of Contents
 - [About the Project](#-about-the-project)
 - [Features](#-features)
-- [Technologies Used](#technologies-used)
+- [Technologies Used](#-technologies-used)
 - [How to View](#-how-to-view)
 
 ---
