@@ -60,11 +60,7 @@ Generates a personalized travel outline for your visit.
 
 ## 🚀 How to View
 
-### 🔹 Option 1: View Live
-Visit the live demo here:  
-👉 [CityZen on GitHub Pages](https://AndreiT204.github.io/CityZen)
-
-### 🔹 Option 2: Run Locally
+### 🔹 Run Locally
 1. Clone this repository:
    ```bash
    git clone https://github.com/AndreiT204/CityZen.git
