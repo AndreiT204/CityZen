@@ -55,7 +55,7 @@ Generates a personalized travel outline for your visit.
 
 ---
 
-### 🔹 Option 1: View Live Visit the live demo here: 👉 [CityZen on Vercel]([https://AndreiT204.github.io/CityZen](https://city-zen-b2x7-git-main-andreit204s-projects.vercel.app)) 
+### 🔹 Option 1: View Live Visit the live demo here: 👉 [CityZen on Vercel](https://AndreiT204.github.io/CityZen](https://city-zen-b2x7-git-main-andreit204s-projects.vercel.app) 
 
 ### 🔹 Option 2: Run Locally 1. Clone this repository:
 bash
