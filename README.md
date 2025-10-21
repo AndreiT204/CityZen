@@ -10,7 +10,7 @@ It allows visitors to explore Japan’s iconic cities, browse a gallery of capti
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to View](#how-to-view)
-- 
+  
 ---
 
 ## 🗾 About the Project
